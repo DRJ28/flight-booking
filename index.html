@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html ng-app="flightApp">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>FlightApp</title>
+	<!-- custom css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!--css library-->
+	<link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+	 <!-- FONTAWESOME STYLES-->
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+
+<body>
+	<div class="body-container">
+		<div class="screen-area"> 
+			<div class="header">
+				<img src="images/jet-logo.png" alt="FlightApp" />
+			</div>
+			<div class="nav">
+				<div class="nav-options"><a href="#/home">Home</a></div>
+				<div class="nav-options"><a href="#/gallery">Gallery</a></div>
+				<div class="nav-options"><a href="#/hotels">Hotels</a></div>
+				<div class="nav-options"><a href="#/tours">Tours</a></div>
+			</div>
+
+			<div class="content" ng-view>
+			</div>
+
+			<div class="footer">
+				<div class="nav-options"><span>About us</span></div>
+				<div class="nav-options"><span>Press</span></div>
+				<div class="nav-options"><span>Investor</span></div>
+				<div class="nav-options"><span>copyright@flightsearchengine.com</span></div>
+			</div>
+		</div>
+	</div>
+<!-- framework dependencies -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/jquery-ui/ui/widgets/datepicker.js"></script>
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="node_modules/angular-route/angular-route.min.js"></script>
+<!-- <script src="node_modules/d3/build/d3.min.js"></script> -->
+<!-- <script src="node_modules/jquery-ui/ui/widgets/slider.js"></script> -->
+
+<!-- application dependencies -->
+<script src="js/main.js"></script>
+<script src="js/controllers/controllerHome.js"></script>
+<script src="js/controllers/gallery.js"></script>
+<script src="js/controllers/hotels.js"></script>
+<script src="js/controllers/tours.js"></script>
+<script src="js/services/flight-list.js"></script>
+<script src="js/directives/date-picker.js"></script>
+<script src="js/filters/city-filter.js"></script>
+<script src="js/filters/range-filter.js"></script>
+</body>
+</html>
