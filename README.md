@@ -30,5 +30,6 @@ Also he can go for return ticket, where he will see total fare of round trip.
 Json list is presents at app\public\json\flightList.json
 
 #use case: 
-selet flight from PUNE->MUMBAI on 28th of dec 2016(3 results)
-select return date for above on 29th of dec 2016(2 results)
+Selet flight from PUNE->MUMBAI on 28th of dec 2016(3 results)
+
+Select return date for above on 29th of dec 2016(2 results)
