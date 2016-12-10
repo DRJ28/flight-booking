@@ -1,4 +1,5 @@
-#Brief : Here, we want to implement Flight search functionality. You have a form, where user can input
+#Brief : 
+Here, we want to implement Flight search functionality. You have a form, where user can input
 and search for the flights. Then user will be able to see the search results, user can refine the
 search using a slider for prices.
 
@@ -28,5 +29,6 @@ Also he can go for return ticket, where he will see total fare of round trip.
 #Note:
 Json list is presents at app\public\json\flightList.json
 
-#use case: selet flight from PUNE->MUMBAI on 28th of dec 2016(3 results)
-			select return date for above on 29th of dec 2016(2 results)
+#use case: 
+selet flight from PUNE->MUMBAI on 28th of dec 2016(3 results)
+select return date for above on 29th of dec 2016(2 results)
